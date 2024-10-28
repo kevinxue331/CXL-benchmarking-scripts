@@ -1,0 +1,389 @@
+[
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-16-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "3",
+      "p95_time": 0.01751382544534863,
+      "rps": 68.8994280095866,
+      "parallel": 1,
+      "p99_time": 0.018550776207848684,
+      "mean_time": 0.014232756111024356,
+      "mean_precisions": 0.9518279999999999,
+      "engine_params": {
+        "hnsw_ef": 512
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-16-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "4",
+      "p95_time": 0.08564334004695406,
+      "rps": 1508.839257993763,
+      "parallel": 100,
+      "p99_time": 0.11182032995508061,
+      "mean_time": 0.06259196116528765,
+      "mean_precisions": 0.7842859999999999,
+      "engine_params": {
+        "hnsw_ef": 64
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-16-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "5",
+      "p95_time": 0.1214678282456589,
+      "rps": 946.0031933665907,
+      "parallel": 100,
+      "p99_time": 0.13058219222119083,
+      "mean_time": 0.10317359824778395,
+      "mean_precisions": 0.85683,
+      "engine_params": {
+        "hnsw_ef": 128
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-16-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "6",
+      "p95_time": 0.20662684756025557,
+      "rps": 571.5405963576222,
+      "parallel": 100,
+      "p99_time": 0.22675887180637802,
+      "mean_time": 0.17147946970313496,
+      "mean_precisions": 0.912076,
+      "engine_params": {
+        "hnsw_ef": 256
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-16-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "7",
+      "p95_time": 0.3320363103048294,
+      "rps": 335.9450820018247,
+      "parallel": 100,
+      "p99_time": 0.3494660598614428,
+      "mean_time": 0.29379825370235046,
+      "mean_precisions": 0.9518280000000001,
+      "engine_params": {
+        "hnsw_ef": 512
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-32-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "0",
+      "p95_time": 0.009402492549997987,
+      "rps": 119.56081759402439,
+      "parallel": 1,
+      "p99_time": 0.009800231394183357,
+      "mean_time": 0.008107169235836773,
+      "mean_precisions": 0.826001,
+      "engine_params": {
+        "experiment": "qdrant-m-32-ef-128",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 128
+        },
+        "hnsw_ef": 64
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-32-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "1",
+      "p95_time": 0.011435313297261017,
+      "rps": 108.86659337941352,
+      "parallel": 1,
+      "p99_time": 0.011923817093920661,
+      "mean_time": 0.008962342477768835,
+      "mean_precisions": 0.89323,
+      "engine_params": {
+        "experiment": "qdrant-m-32-ef-128",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 128
+        },
+        "hnsw_ef": 128
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-32-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "2",
+      "p95_time": 0.014532645150029565,
+      "rps": 84.58491271007526,
+      "parallel": 1,
+      "p99_time": 0.015493123196501984,
+      "mean_time": 0.011548487552472215,
+      "mean_precisions": 0.942994,
+      "engine_params": {
+        "experiment": "qdrant-m-32-ef-128",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 128
+        },
+        "hnsw_ef": 256
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-32-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "3",
+      "p95_time": 0.021014586955425327,
+      "rps": 59.20412508921238,
+      "parallel": 1,
+      "p99_time": 0.022210234829981346,
+      "mean_time": 0.01658460816615552,
+      "mean_precisions": 0.9746370000000001,
+      "engine_params": {
+        "experiment": "qdrant-m-32-ef-128",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 128
+        },
+        "hnsw_ef": 512
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-32-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "4",
+      "p95_time": 0.10215617849607952,
+      "rps": 1307.9555561432298,
+      "parallel": 100,
+      "p99_time": 0.1297719613196387,
+      "mean_time": 0.07357924919518118,
+      "mean_precisions": 0.826001,
+      "engine_params": {
+        "experiment": "qdrant-m-32-ef-128",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 128
+        },
+        "hnsw_ef": 64
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-32-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "5",
+      "p95_time": 0.1527842469513416,
+      "rps": 794.7476960315992,
+      "parallel": 100,
+      "p99_time": 0.1671463413431775,
+      "mean_time": 0.12307567215269373,
+      "mean_precisions": 0.89323,
+      "engine_params": {
+        "experiment": "qdrant-m-32-ef-128",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 128
+        },
+        "hnsw_ef": 128
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-32-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "6",
+      "p95_time": 0.24686271654791198,
+      "rps": 478.36165845928593,
+      "parallel": 100,
+      "p99_time": 0.26735718847718093,
+      "mean_time": 0.20627180668644723,
+      "mean_precisions": 0.9429939999999999,
+      "engine_params": {
+        "experiment": "qdrant-m-32-ef-128",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 128
+        },
+        "hnsw_ef": 256
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-32-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "7",
+      "p95_time": 0.40754363889500383,
+      "rps": 278.7917201474333,
+      "parallel": 100,
+      "p99_time": 0.42659110687964136,
+      "mean_time": 0.35553106869239126,
+      "mean_precisions": 0.9746370000000001,
+      "engine_params": {
+        "experiment": "qdrant-m-32-ef-128",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 128
+        },
+        "hnsw_ef": 512
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-32-ef-256",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "0",
+      "p95_time": 0.008890103251906112,
+      "rps": 117.00845016617119,
+      "parallel": 1,
+      "p99_time": 0.00917076810146682,
+      "mean_time": 0.008285572760971263,
+      "mean_precisions": 0.8359709999999999,
+      "engine_params": {
+        "experiment": "qdrant-m-32-ef-256",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 256
+        },
+        "hnsw_ef": 64
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-32-ef-256",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "1",
+      "p95_time": 0.011201495245768455,
+      "rps": 101.75437485818745,
+      "parallel": 1,
+      "p99_time": 0.011800015558546876,
+      "mean_time": 0.009558299518251443,
+      "mean_precisions": 0.8978139999999999,
+      "engine_params": {
+        "experiment": "qdrant-m-32-ef-256",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 256
+        },
+        "hnsw_ef": 128
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-32-ef-256",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "2",
+      "p95_time": 0.016060266404383582,
+      "rps": 75.10339167558996,
+      "parallel": 1,
+      "p99_time": 0.017021019921958213,
+      "mean_time": 0.01303128261140082,
+      "mean_precisions": 0.9486190000000001,
+      "engine_params": {
+        "experiment": "qdrant-m-32-ef-256",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 256
+        },
+        "hnsw_ef": 256
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-32-ef-256",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "3",
+      "p95_time": 0.022054618898255284,
+      "rps": 57.50478772273517,
+      "parallel": 1,
+      "p99_time": 0.023696252130466746,
+      "mean_time": 0.01709658289500512,
+      "mean_precisions": 0.97896,
+      "engine_params": {
+        "experiment": "qdrant-m-32-ef-256",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 256
+        },
+        "hnsw_ef": 512
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-m-32-ef-256",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "4",
+      "p95_time": 0.1032579215003352,
+      "rps": 1305.121705776901,
+      "parallel": 100,
+      "p99_time": 0.12406831860585957,
+      "mean_time": 0.07257866525857244,
+      "mean_precisions": 0.8359709999999999,
+      "engine_params": {
+        "experiment": "qdrant-m-32-ef-256",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 256
+        },
+        "hnsw_ef": 64
+      }
+    }
+  ]

@@ -1,0 +1,290 @@
+[
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-mmap-m-16-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "4",
+      "p95_time": 0.12750998148985673,
+      "rps": 1105.1452267569668,
+      "parallel": 100,
+      "p99_time": 0.15803989697131332,
+      "mean_time": 0.08750568984629936,
+      "mean_precisions": 0.8053929999999999,
+      "engine_params": {
+        "experiment": "qdrant-mmap-m-16-ef-128",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000
+        },
+        "hnsw_config": {
+          "m": 16,
+          "ef_construct": 128
+        },
+        "hnsw_ef": 64
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-mmap-m-16-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "5",
+      "p95_time": 0.19629398026154357,
+      "rps": 676.6492561805958,
+      "parallel": 100,
+      "p99_time": 0.24001451998308776,
+      "mean_time": 0.1431582217563933,
+      "mean_precisions": 0.8745109999999999,
+      "engine_params": {
+        "experiment": "qdrant-mmap-m-16-ef-128",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000
+        },
+        "hnsw_config": {
+          "m": 16,
+          "ef_construct": 128
+        },
+        "hnsw_ef": 128
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-mmap-m-16-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "6",
+      "p95_time": 0.273210879531689,
+      "rps": 399.7229514948907,
+      "parallel": 100,
+      "p99_time": 0.2892750009393785,
+      "mean_time": 0.24154028947062905,
+      "mean_precisions": 0.926902,
+      "engine_params": {
+        "experiment": "qdrant-mmap-m-16-ef-128",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000
+        },
+        "hnsw_config": {
+          "m": 16,
+          "ef_construct": 128
+        },
+        "hnsw_ef": 256
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-mmap-m-16-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "7",
+      "p95_time": 0.4649922313459683,
+      "rps": 232.34748946984266,
+      "parallel": 100,
+      "p99_time": 0.481245395882288,
+      "mean_time": 0.4231510618449247,
+      "mean_precisions": 0.9629460000000001,
+      "engine_params": {
+        "experiment": "qdrant-mmap-m-16-ef-128",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000
+        },
+        "hnsw_config": {
+          "m": 16,
+          "ef_construct": 128
+        },
+        "hnsw_ef": 512
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-mmap-m-32-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "4",
+      "p95_time": 0.16285237770935054,
+      "rps": 820.0860151155418,
+      "parallel": 100,
+      "p99_time": 0.20077529838774355,
+      "mean_time": 0.11908033080383902,
+      "mean_precisions": 0.853849,
+      "engine_params": {
+        "experiment": "qdrant-mmap-m-32-ef-128",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 128
+        },
+        "hnsw_ef": 64
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-mmap-m-32-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "5",
+      "p95_time": 0.24020898993185252,
+      "rps": 488.6499626899918,
+      "parallel": 100,
+      "p99_time": 0.29875802910304633,
+      "mean_time": 0.19943212131886393,
+      "mean_precisions": 0.916286,
+      "engine_params": {
+        "experiment": "qdrant-mmap-m-32-ef-128",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 128
+        },
+        "hnsw_ef": 128
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-mmap-m-32-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "6",
+      "p95_time": 0.3840859168820316,
+      "rps": 287.7292086907633,
+      "parallel": 100,
+      "p99_time": 0.4073492913972586,
+      "mean_time": 0.3410434607350442,
+      "mean_precisions": 0.959619,
+      "engine_params": {
+        "experiment": "qdrant-mmap-m-32-ef-128",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 128
+        },
+        "hnsw_ef": 256
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-mmap-m-32-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "7",
+      "p95_time": 0.6532423047698103,
+      "rps": 165.2716982466909,
+      "parallel": 100,
+      "p99_time": 0.6728915001440328,
+      "mean_time": 0.5956629823412688,
+      "mean_precisions": 0.9842449999999999,
+      "engine_params": {
+        "experiment": "qdrant-mmap-m-32-ef-128",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 128
+        },
+        "hnsw_ef": 512
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-mmap-m-32-ef-256",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "4",
+      "p95_time": 0.19602267609443508,
+      "rps": 700.9530439497878,
+      "parallel": 100,
+      "p99_time": 0.2391922491032165,
+      "mean_time": 0.13782749432347483,
+      "mean_precisions": 0.872858,
+      "engine_params": {
+        "experiment": "qdrant-mmap-m-32-ef-256",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 256
+        },
+        "hnsw_ef": 64
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-mmap-m-32-ef-256",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "5",
+      "p95_time": 0.26439326352265197,
+      "rps": 418.8030904689926,
+      "parallel": 100,
+      "p99_time": 0.27946105000912214,
+      "mean_time": 0.23324180208414327,
+      "mean_precisions": 0.934903,
+      "engine_params": {
+        "experiment": "qdrant-mmap-m-32-ef-256",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 256
+        },
+        "hnsw_ef": 128
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-mmap-m-32-ef-256",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "6",
+      "p95_time": 0.44938640004547775,
+      "rps": 242.12425081202562,
+      "parallel": 100,
+      "p99_time": 0.4673318429902429,
+      "mean_time": 0.4052840690389334,
+      "mean_precisions": 0.9738400000000001,
+      "engine_params": {
+        "experiment": "qdrant-mmap-m-32-ef-256",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 256
+        },
+        "hnsw_ef": 256
+      }
+    },
+    {
+      "engine_name": "qdrant",
+      "setup_name": "qdrant-mmap-m-32-ef-256",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "7",
+      "p95_time": 0.7747965363494587,
+      "rps": 139.09049944353598,
+      "parallel": 100,
+      "p99_time": 0.797105393166421,
+      "mean_time": 0.7070069530941604,
+      "mean_precisions": 0.9922050000000001,
+      "engine_params": {
+        "experiment": "qdrant-mmap-m-32-ef-256",
+        "parallel": 16,
+        "optimizers_config": {
+          "memmap_threshold": 10000
+        },
+        "hnsw_config": {
+          "m": 32,
+          "ef_construct": 256
+        },
+        "hnsw_ef": 512
+      }
+    }
+  ]

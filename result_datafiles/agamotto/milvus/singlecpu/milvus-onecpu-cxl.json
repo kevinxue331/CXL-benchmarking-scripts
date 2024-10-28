@@ -1,0 +1,317 @@
+[
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "3",
+      "p95_time": 0.811282695650332,
+      "rps": 391.4622889491766,
+      "parallel": 100,
+      "p99_time": 1.4998328965128178,
+      "mean_time": 0.2515306096826993,
+      "mean_precisions": 0.8325880000000001,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "4",
+      "p95_time": 1.0828062745984406,
+      "rps": 250.34088867489984,
+      "parallel": 100,
+      "p99_time": 2.899623505089767,
+      "mean_time": 0.39554582286570256,
+      "mean_precisions": 0.8951309999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "5",
+      "p95_time": 1.1140132205498958,
+      "rps": 153.24833029427467,
+      "parallel": 100,
+      "p99_time": 3.4616414933569852,
+      "mean_time": 0.6479257642438042,
+      "mean_precisions": 0.941958,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "3",
+      "p95_time": 0.8241860974001591,
+      "rps": 348.9624880690861,
+      "parallel": 100,
+      "p99_time": 1.9292192378508486,
+      "mean_time": 0.2826996861124462,
+      "mean_precisions": 0.85157,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "4",
+      "p95_time": 0.9198746791502344,
+      "rps": 224.64294549919654,
+      "parallel": 100,
+      "p99_time": 2.644766015982753,
+      "mean_time": 0.4407213006691127,
+      "mean_precisions": 0.914457,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "5",
+      "p95_time": 1.2880265358482552,
+      "rps": 134.0318445785931,
+      "parallel": 100,
+      "p99_time": 3.2040079395586525,
+      "mean_time": 0.7405332964721049,
+      "mean_precisions": 0.9581360000000001,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "3",
+      "p95_time": 0.7830445994066394,
+      "rps": 338.01007946105665,
+      "parallel": 100,
+      "p99_time": 1.552568997136623,
+      "mean_time": 0.2916041548238849,
+      "mean_precisions": 0.856684,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "4",
+      "p95_time": 0.9361956630433269,
+      "rps": 217.33544941608415,
+      "parallel": 100,
+      "p99_time": 1.9724068904994112,
+      "mean_time": 0.4562107852588277,
+      "mean_precisions": 0.9200870000000001,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "5",
+      "p95_time": 1.164551241354274,
+      "rps": 128.84763881666873,
+      "parallel": 100,
+      "p99_time": 3.4029042513535392,
+      "mean_time": 0.7707425661834161,
+      "mean_precisions": 0.963126,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "3",
+      "p95_time": 0.9042808448943095,
+      "rps": 286.7942132081626,
+      "parallel": 100,
+      "p99_time": 2.35055072020361,
+      "mean_time": 0.3445249848771666,
+      "mean_precisions": 0.8887300000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "4",
+      "p95_time": 1.0314419100530356,
+      "rps": 173.2005831205591,
+      "parallel": 100,
+      "p99_time": 3.1117909314435384,
+      "mean_time": 0.5730891164880537,
+      "mean_precisions": 0.943009,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "5",
+      "p95_time": 1.4861252902010165,
+      "rps": 100.788616590692,
+      "parallel": 100,
+      "p99_time": 4.210324384800993,
+      "mean_time": 0.9860167893626429,
+      "mean_precisions": 0.976093,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "3",
+      "p95_time": 0.868083190052493,
+      "rps": 246.719989859566,
+      "parallel": 100,
+      "p99_time": 1.961056291883724,
+      "mean_time": 0.40121643230228293,
+      "mean_precisions": 0.906275,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "4",
+      "p95_time": 1.3098548477962877,
+      "rps": 152.07572627845775,
+      "parallel": 100,
+      "p99_time": 4.313176123412923,
+      "mean_time": 0.6526422912619492,
+      "mean_precisions": 0.9579310000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "glove-100-angular",
+      "search_idx": "5",
+      "p95_time": 1.6844117370997962,
+      "rps": 86.18319717623628,
+      "parallel": 100,
+      "p99_time": 5.380014425105332,
+      "mean_time": 1.155161099338054,
+      "mean_precisions": 0.9858309999999999,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 512
+      }
+    }
+  ]
