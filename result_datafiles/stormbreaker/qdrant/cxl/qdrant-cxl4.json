@@ -53,30 +53,6 @@
       "engine_name": "qdrant",
       "setup_name": "qdrant-m-32-ef-128",
       "dataset_name": "glove-100-angular",
-      "search_idx": "3",
-      "p95_time": 0.010508441401907475,
-      "rps": 136.44110043992643,
-      "parallel": 1,
-      "p99_time": 0.011479327049455607,
-      "mean_time": 0.007270610003534239,
-      "mean_precisions": 0.9688650000000002,
-      "engine_params": {
-        "experiment": "qdrant-m-32-ef-128",
-        "parallel": 16,
-        "optimizers_config": {
-          "memmap_threshold": 10000000
-        },
-        "hnsw_config": {
-          "m": 32,
-          "ef_construct": 128
-        },
-        "hnsw_ef": 512
-      }
-    },
-    {
-      "engine_name": "qdrant",
-      "setup_name": "qdrant-m-32-ef-128",
-      "dataset_name": "glove-100-angular",
       "search_idx": "4",
       "p95_time": 0.09686476034912629,
       "rps": 1231.6894637895302,
