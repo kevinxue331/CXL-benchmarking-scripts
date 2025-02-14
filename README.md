@@ -10,3 +10,10 @@ Run using the https://github.com/qdrant/vector-db-benchmark benchmarks. Change d
 4. Control memory and cpu usage using numactl ex. "numactl --cpunodebind=1 --membind=2 ./target/release/qdrant" 
 5. Utilize benchmarks from https://github.com/qdrant/vector-db-benchmark.git ex. "sudo python3 -m run --engines <engine name> --datasets glove-100<or other>"
 ```
+
+## Docker execution
+```
+1. Go into VectorDbBenchmark
+2. Docker compose up the correct image from /engines/server/set first set docker slices in .yaml file and then use systemctl to set memory and cpu constraints
+3. Utilize benchmarks from https://github.com/qdrant/vector-db-benchmark.git ex. "sudo python3 -m run --engines <engine name> --datasets glove-100<or other>"
+```
