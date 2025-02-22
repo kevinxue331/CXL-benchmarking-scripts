@@ -1,0 +1,3215 @@
+[
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.0075753103486931655,
+      "rps": 552.6209240316947,
+      "parallel": 100,
+      "p99_time": 0.008854574035358387,
+      "mean_time": 0.00557782041777391,
+      "mean_precisions": 0.9974800000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.0075753103486931655,
+      "rps": 552.6209240316947,
+      "parallel": 100,
+      "p99_time": 0.008854574035358387,
+      "mean_time": 0.00557782041777391,
+      "mean_precisions": 0.9974800000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.0075753103486931655,
+      "rps": 552.6209240316947,
+      "parallel": 100,
+      "p99_time": 0.008854574035358387,
+      "mean_time": 0.00557782041777391,
+      "mean_precisions": 0.9974800000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.009750452303342172,
+      "rps": 548.54958015372,
+      "parallel": 100,
+      "p99_time": 0.011605353214399658,
+      "mean_time": 0.007179089322804066,
+      "mean_precisions": 0.99634,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.009750452303342172,
+      "rps": 548.54958015372,
+      "parallel": 100,
+      "p99_time": 0.011605353214399658,
+      "mean_time": 0.007179089322804066,
+      "mean_precisions": 0.99634,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.009750452303342172,
+      "rps": 548.54958015372,
+      "parallel": 100,
+      "p99_time": 0.011605353214399658,
+      "mean_time": 0.007179089322804066,
+      "mean_precisions": 0.99634,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.00722137304910575,
+      "rps": 543.4483036362585,
+      "parallel": 100,
+      "p99_time": 0.008429671190242518,
+      "mean_time": 0.005554431210797338,
+      "mean_precisions": 0.9959,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.00722137304910575,
+      "rps": 543.4483036362585,
+      "parallel": 100,
+      "p99_time": 0.008429671190242518,
+      "mean_time": 0.005554431210797338,
+      "mean_precisions": 0.9959,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.00722137304910575,
+      "rps": 543.4483036362585,
+      "parallel": 100,
+      "p99_time": 0.008429671190242518,
+      "mean_time": 0.005554431210797338,
+      "mean_precisions": 0.9959,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.007876521998696262,
+      "rps": 546.280082425184,
+      "parallel": 100,
+      "p99_time": 0.009206697367044398,
+      "mean_time": 0.005917056293411588,
+      "mean_precisions": 0.99726,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.007876521998696262,
+      "rps": 546.280082425184,
+      "parallel": 100,
+      "p99_time": 0.009206697367044398,
+      "mean_time": 0.005917056293411588,
+      "mean_precisions": 0.99726,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.007876521998696262,
+      "rps": 546.280082425184,
+      "parallel": 100,
+      "p99_time": 0.009206697367044398,
+      "mean_time": 0.005917056293411588,
+      "mean_precisions": 0.99726,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.008159948994216393,
+      "rps": 552.8580048908435,
+      "parallel": 100,
+      "p99_time": 0.009621467782417315,
+      "mean_time": 0.005980913793208311,
+      "mean_precisions": 0.9955799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.008159948994216393,
+      "rps": 552.8580048908435,
+      "parallel": 100,
+      "p99_time": 0.009621467782417315,
+      "mean_time": 0.005980913793208311,
+      "mean_precisions": 0.9955799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.008159948994216393,
+      "rps": 552.8580048908435,
+      "parallel": 100,
+      "p99_time": 0.009621467782417315,
+      "mean_time": 0.005980913793208311,
+      "mean_precisions": 0.9955799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.015252028045506454,
+      "rps": 541.0684743876368,
+      "parallel": 100,
+      "p99_time": 0.018011124515469438,
+      "mean_time": 0.010757271122021484,
+      "mean_precisions": 0.9994799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.015252028045506454,
+      "rps": 541.0684743876368,
+      "parallel": 100,
+      "p99_time": 0.018011124515469438,
+      "mean_time": 0.010757271122021484,
+      "mean_precisions": 0.9994799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.015252028045506454,
+      "rps": 541.0684743876368,
+      "parallel": 100,
+      "p99_time": 0.018011124515469438,
+      "mean_time": 0.010757271122021484,
+      "mean_precisions": 0.9994799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.01017437055015762,
+      "rps": 557.3285073913659,
+      "parallel": 100,
+      "p99_time": 0.011826263581388061,
+      "mean_time": 0.007205412969122699,
+      "mean_precisions": 0.9985800000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.01017437055015762,
+      "rps": 557.3285073913659,
+      "parallel": 100,
+      "p99_time": 0.011826263581388061,
+      "mean_time": 0.007205412969122699,
+      "mean_precisions": 0.9985800000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.01017437055015762,
+      "rps": 557.3285073913659,
+      "parallel": 100,
+      "p99_time": 0.011826263581388061,
+      "mean_time": 0.007205412969122699,
+      "mean_precisions": 0.9985800000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.010067124803390472,
+      "rps": 552.7675726819602,
+      "parallel": 100,
+      "p99_time": 0.011425921590416693,
+      "mean_time": 0.007192143476009369,
+      "mean_precisions": 0.9983800000000002,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.010067124803390472,
+      "rps": 552.7675726819602,
+      "parallel": 100,
+      "p99_time": 0.011425921590416693,
+      "mean_time": 0.007192143476009369,
+      "mean_precisions": 0.9983800000000002,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.010067124803390472,
+      "rps": 552.7675726819602,
+      "parallel": 100,
+      "p99_time": 0.011425921590416693,
+      "mean_time": 0.007192143476009369,
+      "mean_precisions": 0.9983800000000002,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.011563946444221073,
+      "rps": 553.2956942943296,
+      "parallel": 100,
+      "p99_time": 0.01359876151022036,
+      "mean_time": 0.008180675218779652,
+      "mean_precisions": 0.9979199999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.011563946444221073,
+      "rps": 553.2956942943296,
+      "parallel": 100,
+      "p99_time": 0.01359876151022036,
+      "mean_time": 0.008180675218779652,
+      "mean_precisions": 0.9979199999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.011563946444221073,
+      "rps": 553.2956942943296,
+      "parallel": 100,
+      "p99_time": 0.01359876151022036,
+      "mean_time": 0.008180675218779652,
+      "mean_precisions": 0.9979199999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.013389792546877288,
+      "rps": 562.1541535522568,
+      "parallel": 100,
+      "p99_time": 0.016138672464585408,
+      "mean_time": 0.0095633955236146,
+      "mean_precisions": 0.9992,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.013389792546877288,
+      "rps": 562.1541535522568,
+      "parallel": 100,
+      "p99_time": 0.016138672464585408,
+      "mean_time": 0.0095633955236146,
+      "mean_precisions": 0.9992,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.013389792546877288,
+      "rps": 562.1541535522568,
+      "parallel": 100,
+      "p99_time": 0.016138672464585408,
+      "mean_time": 0.0095633955236146,
+      "mean_precisions": 0.9992,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.005532685396246961,
+      "rps": 559.3748919261822,
+      "parallel": 100,
+      "p99_time": 0.006349577593719006,
+      "mean_time": 0.004499354089544795,
+      "mean_precisions": 0.9850400000000001,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.005532685396246961,
+      "rps": 559.3748919261822,
+      "parallel": 100,
+      "p99_time": 0.006349577593719006,
+      "mean_time": 0.004499354089544795,
+      "mean_precisions": 0.9850400000000001,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.005532685396246961,
+      "rps": 559.3748919261822,
+      "parallel": 100,
+      "p99_time": 0.006349577593719006,
+      "mean_time": 0.004499354089544795,
+      "mean_precisions": 0.9850400000000001,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.015373793146500248,
+      "rps": 522.547004680148,
+      "parallel": 100,
+      "p99_time": 0.0176384194878483,
+      "mean_time": 0.01112917472240224,
+      "mean_precisions": 0.99956,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.015373793146500248,
+      "rps": 522.547004680148,
+      "parallel": 100,
+      "p99_time": 0.0176384194878483,
+      "mean_time": 0.01112917472240224,
+      "mean_precisions": 0.99956,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.015373793146500248,
+      "rps": 522.547004680148,
+      "parallel": 100,
+      "p99_time": 0.0176384194878483,
+      "mean_time": 0.01112917472240224,
+      "mean_precisions": 0.99956,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.013502186248297224,
+      "rps": 550.5119310088363,
+      "parallel": 100,
+      "p99_time": 0.01650904826332408,
+      "mean_time": 0.009566785108624026,
+      "mean_precisions": 0.99908,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.013502186248297224,
+      "rps": 550.5119310088363,
+      "parallel": 100,
+      "p99_time": 0.01650904826332408,
+      "mean_time": 0.009566785108624026,
+      "mean_precisions": 0.99908,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.013502186248297224,
+      "rps": 550.5119310088363,
+      "parallel": 100,
+      "p99_time": 0.01650904826332408,
+      "mean_time": 0.009566785108624026,
+      "mean_precisions": 0.99908,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.010473531649040524,
+      "rps": 518.7305172869901,
+      "parallel": 100,
+      "p99_time": 0.012313513840708773,
+      "mean_time": 0.007826535246832645,
+      "mean_precisions": 0.99924,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.010473531649040524,
+      "rps": 518.7305172869901,
+      "parallel": 100,
+      "p99_time": 0.012313513840708773,
+      "mean_time": 0.007826535246832645,
+      "mean_precisions": 0.99924,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.010473531649040524,
+      "rps": 518.7305172869901,
+      "parallel": 100,
+      "p99_time": 0.012313513840708773,
+      "mean_time": 0.007826535246832645,
+      "mean_precisions": 0.99924,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.006899621943739476,
+      "rps": 561.5338927017519,
+      "parallel": 100,
+      "p99_time": 0.008158508748092581,
+      "mean_time": 0.005269567478573299,
+      "mean_precisions": 0.9918599999999999,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.006899621943739476,
+      "rps": 561.5338927017519,
+      "parallel": 100,
+      "p99_time": 0.008158508748092581,
+      "mean_time": 0.005269567478573299,
+      "mean_precisions": 0.9918599999999999,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.006899621943739476,
+      "rps": 561.5338927017519,
+      "parallel": 100,
+      "p99_time": 0.008158508748092581,
+      "mean_time": 0.005269567478573299,
+      "mean_precisions": 0.9918599999999999,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.01173049914832518,
+      "rps": 543.1309712963856,
+      "parallel": 100,
+      "p99_time": 0.013688998047873623,
+      "mean_time": 0.008305329738849832,
+      "mean_precisions": 0.9975799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.01173049914832518,
+      "rps": 543.1309712963856,
+      "parallel": 100,
+      "p99_time": 0.013688998047873623,
+      "mean_time": 0.008305329738849832,
+      "mean_precisions": 0.9975799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.01173049914832518,
+      "rps": 543.1309712963856,
+      "parallel": 100,
+      "p99_time": 0.013688998047873623,
+      "mean_time": 0.008305329738849832,
+      "mean_precisions": 0.9975799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.009199720099786646,
+      "rps": 550.7104242726006,
+      "parallel": 100,
+      "p99_time": 0.010692221722056285,
+      "mean_time": 0.006723883481578378,
+      "mean_precisions": 0.99834,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.009199720099786646,
+      "rps": 550.7104242726006,
+      "parallel": 100,
+      "p99_time": 0.010692221722056285,
+      "mean_time": 0.006723883481578378,
+      "mean_precisions": 0.99834,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.009199720099786646,
+      "rps": 550.7104242726006,
+      "parallel": 100,
+      "p99_time": 0.010692221722056285,
+      "mean_time": 0.006723883481578378,
+      "mean_precisions": 0.99834,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.009135258197420629,
+      "rps": 541.776453461847,
+      "parallel": 100,
+      "p99_time": 0.010496899598947495,
+      "mean_time": 0.006643952679265931,
+      "mean_precisions": 0.9981200000000001,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.009135258197420629,
+      "rps": 541.776453461847,
+      "parallel": 100,
+      "p99_time": 0.010496899598947495,
+      "mean_time": 0.006643952679265931,
+      "mean_precisions": 0.9981200000000001,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.009135258197420629,
+      "rps": 541.776453461847,
+      "parallel": 100,
+      "p99_time": 0.010496899598947495,
+      "mean_time": 0.006643952679265931,
+      "mean_precisions": 0.9981200000000001,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.016931997649953703,
+      "rps": 530.8761939629949,
+      "parallel": 100,
+      "p99_time": 0.019476384941081053,
+      "mean_time": 0.011993140635028248,
+      "mean_precisions": 0.99954,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.016931997649953703,
+      "rps": 530.8761939629949,
+      "parallel": 100,
+      "p99_time": 0.019476384941081053,
+      "mean_time": 0.011993140635028248,
+      "mean_precisions": 0.99954,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.016931997649953703,
+      "rps": 530.8761939629949,
+      "parallel": 100,
+      "p99_time": 0.019476384941081053,
+      "mean_time": 0.011993140635028248,
+      "mean_precisions": 0.99954,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.010113070554143634,
+      "rps": 552.3314669849284,
+      "parallel": 100,
+      "p99_time": 0.01174987567072094,
+      "mean_time": 0.007388750989812252,
+      "mean_precisions": 0.9987,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.010113070554143634,
+      "rps": 552.3314669849284,
+      "parallel": 100,
+      "p99_time": 0.01174987567072094,
+      "mean_time": 0.007388750989812252,
+      "mean_precisions": 0.9987,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.010113070554143634,
+      "rps": 552.3314669849284,
+      "parallel": 100,
+      "p99_time": 0.01174987567072094,
+      "mean_time": 0.007388750989812252,
+      "mean_precisions": 0.9987,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.009769834502731101,
+      "rps": 558.5832070603319,
+      "parallel": 100,
+      "p99_time": 0.011436560384536285,
+      "mean_time": 0.0071428452623833434,
+      "mean_precisions": 0.9968799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.009769834502731101,
+      "rps": 558.5832070603319,
+      "parallel": 100,
+      "p99_time": 0.011436560384536285,
+      "mean_time": 0.0071428452623833434,
+      "mean_precisions": 0.9968799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.009769834502731101,
+      "rps": 558.5832070603319,
+      "parallel": 100,
+      "p99_time": 0.011436560384536285,
+      "mean_time": 0.0071428452623833434,
+      "mean_precisions": 0.9968799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.006948844597354764,
+      "rps": 546.3812721681173,
+      "parallel": 100,
+      "p99_time": 0.008329091919513315,
+      "mean_time": 0.005367638194620668,
+      "mean_precisions": 0.9941,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.006948844597354764,
+      "rps": 546.3812721681173,
+      "parallel": 100,
+      "p99_time": 0.008329091919513315,
+      "mean_time": 0.005367638194620668,
+      "mean_precisions": 0.9941,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.006948844597354764,
+      "rps": 546.3812721681173,
+      "parallel": 100,
+      "p99_time": 0.008329091919513315,
+      "mean_time": 0.005367638194620668,
+      "mean_precisions": 0.9941,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.009866060104832286,
+      "rps": 544.2186810330227,
+      "parallel": 100,
+      "p99_time": 0.01145863540405117,
+      "mean_time": 0.007263000302338333,
+      "mean_precisions": 0.9988799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.009866060104832286,
+      "rps": 544.2186810330227,
+      "parallel": 100,
+      "p99_time": 0.01145863540405117,
+      "mean_time": 0.007263000302338333,
+      "mean_precisions": 0.9988799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.009866060104832286,
+      "rps": 544.2186810330227,
+      "parallel": 100,
+      "p99_time": 0.01145863540405117,
+      "mean_time": 0.007263000302338333,
+      "mean_precisions": 0.9988799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.006991817699599779,
+      "rps": 536.7014621241673,
+      "parallel": 100,
+      "p99_time": 0.008035345329772101,
+      "mean_time": 0.00542779777378455,
+      "mean_precisions": 0.9958,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.006991817699599779,
+      "rps": 536.7014621241673,
+      "parallel": 100,
+      "p99_time": 0.008035345329772101,
+      "mean_time": 0.00542779777378455,
+      "mean_precisions": 0.9958,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.006991817699599779,
+      "rps": 536.7014621241673,
+      "parallel": 100,
+      "p99_time": 0.008035345329772101,
+      "mean_time": 0.00542779777378455,
+      "mean_precisions": 0.9958,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.005696429450108553,
+      "rps": 550.4878832523287,
+      "parallel": 100,
+      "p99_time": 0.00666440575492743,
+      "mean_time": 0.004536027168777946,
+      "mean_precisions": 0.9814,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.005696429450108553,
+      "rps": 550.4878832523287,
+      "parallel": 100,
+      "p99_time": 0.00666440575492743,
+      "mean_time": 0.004536027168777946,
+      "mean_precisions": 0.9814,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.005696429450108553,
+      "rps": 550.4878832523287,
+      "parallel": 100,
+      "p99_time": 0.00666440575492743,
+      "mean_time": 0.004536027168777946,
+      "mean_precisions": 0.9814,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.00732928865327267,
+      "rps": 537.6612441996957,
+      "parallel": 100,
+      "p99_time": 0.008304219004130574,
+      "mean_time": 0.005670791732615908,
+      "mean_precisions": 0.9977,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.00732928865327267,
+      "rps": 537.6612441996957,
+      "parallel": 100,
+      "p99_time": 0.008304219004130574,
+      "mean_time": 0.005670791732615908,
+      "mean_precisions": 0.9977,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.00732928865327267,
+      "rps": 537.6612441996957,
+      "parallel": 100,
+      "p99_time": 0.008304219004130574,
+      "mean_time": 0.005670791732615908,
+      "mean_precisions": 0.9977,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.005752737201328274,
+      "rps": 547.0291374171759,
+      "parallel": 100,
+      "p99_time": 0.006451716467199732,
+      "mean_time": 0.004610202807410678,
+      "mean_precisions": 0.9835200000000001,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.005752737201328274,
+      "rps": 547.0291374171759,
+      "parallel": 100,
+      "p99_time": 0.006451716467199732,
+      "mean_time": 0.004610202807410678,
+      "mean_precisions": 0.9835200000000001,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.005752737201328274,
+      "rps": 547.0291374171759,
+      "parallel": 100,
+      "p99_time": 0.006451716467199732,
+      "mean_time": 0.004610202807410678,
+      "mean_precisions": 0.9835200000000001,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.011542507402191406,
+      "rps": 536.9280365850769,
+      "parallel": 100,
+      "p99_time": 0.014049369782442235,
+      "mean_time": 0.008234792413534888,
+      "mean_precisions": 0.9990399999999999,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.011542507402191406,
+      "rps": 536.9280365850769,
+      "parallel": 100,
+      "p99_time": 0.014049369782442235,
+      "mean_time": 0.008234792413534888,
+      "mean_precisions": 0.9990399999999999,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.011542507402191406,
+      "rps": 536.9280365850769,
+      "parallel": 100,
+      "p99_time": 0.014049369782442235,
+      "mean_time": 0.008234792413534888,
+      "mean_precisions": 0.9990399999999999,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.006333861898383477,
+      "rps": 535.0628274406118,
+      "parallel": 100,
+      "p99_time": 0.007257364017132206,
+      "mean_time": 0.004982500642776722,
+      "mean_precisions": 0.99472,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.006333861898383477,
+      "rps": 535.0628274406118,
+      "parallel": 100,
+      "p99_time": 0.007257364017132206,
+      "mean_time": 0.004982500642776722,
+      "mean_precisions": 0.99472,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.006333861898383477,
+      "rps": 535.0628274406118,
+      "parallel": 100,
+      "p99_time": 0.007257364017132206,
+      "mean_time": 0.004982500642776722,
+      "mean_precisions": 0.99472,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.0151809067974682,
+      "rps": 560.0133030129912,
+      "parallel": 100,
+      "p99_time": 0.01986564189217466,
+      "mean_time": 0.01078976972130331,
+      "mean_precisions": 0.9990800000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.0151809067974682,
+      "rps": 560.0133030129912,
+      "parallel": 100,
+      "p99_time": 0.01986564189217466,
+      "mean_time": 0.01078976972130331,
+      "mean_precisions": 0.9990800000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.0151809067974682,
+      "rps": 560.0133030129912,
+      "parallel": 100,
+      "p99_time": 0.01986564189217466,
+      "mean_time": 0.01078976972130331,
+      "mean_precisions": 0.9990800000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.014815923897185718,
+      "rps": 537.3733322402744,
+      "parallel": 100,
+      "p99_time": 0.01770603472956282,
+      "mean_time": 0.010484919355568128,
+      "mean_precisions": 0.9993200000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.014815923897185718,
+      "rps": 537.3733322402744,
+      "parallel": 100,
+      "p99_time": 0.01770603472956282,
+      "mean_time": 0.010484919355568128,
+      "mean_precisions": 0.9993200000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.014815923897185718,
+      "rps": 537.3733322402744,
+      "parallel": 100,
+      "p99_time": 0.01770603472956282,
+      "mean_time": 0.010484919355568128,
+      "mean_precisions": 0.9993200000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.00721522719868517,
+      "rps": 562.5997690589315,
+      "parallel": 100,
+      "p99_time": 0.008372382145171291,
+      "mean_time": 0.005583728964396869,
+      "mean_precisions": 0.9956599999999999,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.00721522719868517,
+      "rps": 562.5997690589315,
+      "parallel": 100,
+      "p99_time": 0.008372382145171291,
+      "mean_time": 0.005583728964396869,
+      "mean_precisions": 0.9956599999999999,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.00721522719868517,
+      "rps": 562.5997690589315,
+      "parallel": 100,
+      "p99_time": 0.008372382145171291,
+      "mean_time": 0.005583728964396869,
+      "mean_precisions": 0.9956599999999999,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.005851747452834388,
+      "rps": 561.8750898014241,
+      "parallel": 100,
+      "p99_time": 0.006749485356485821,
+      "mean_time": 0.0046331275950200505,
+      "mean_precisions": 0.99046,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.005851747452834388,
+      "rps": 561.8750898014241,
+      "parallel": 100,
+      "p99_time": 0.006749485356485821,
+      "mean_time": 0.0046331275950200505,
+      "mean_precisions": 0.99046,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.005851747452834388,
+      "rps": 561.8750898014241,
+      "parallel": 100,
+      "p99_time": 0.006749485356485821,
+      "mean_time": 0.0046331275950200505,
+      "mean_precisions": 0.99046,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.006985965296553332,
+      "rps": 553.3118174229984,
+      "parallel": 100,
+      "p99_time": 0.008357974092941735,
+      "mean_time": 0.0054069904986899925,
+      "mean_precisions": 0.9958799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.006985965296553332,
+      "rps": 553.3118174229984,
+      "parallel": 100,
+      "p99_time": 0.008357974092941735,
+      "mean_time": 0.0054069904986899925,
+      "mean_precisions": 0.9958799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.006985965296553332,
+      "rps": 553.3118174229984,
+      "parallel": 100,
+      "p99_time": 0.008357974092941735,
+      "mean_time": 0.0054069904986899925,
+      "mean_precisions": 0.9958799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.0060037641542294296,
+      "rps": 558.0138029022559,
+      "parallel": 100,
+      "p99_time": 0.006991124472042429,
+      "mean_time": 0.004716012308833888,
+      "mean_precisions": 0.98682,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.0060037641542294296,
+      "rps": 558.0138029022559,
+      "parallel": 100,
+      "p99_time": 0.006991124472042429,
+      "mean_time": 0.004716012308833888,
+      "mean_precisions": 0.98682,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.0060037641542294296,
+      "rps": 558.0138029022559,
+      "parallel": 100,
+      "p99_time": 0.006991124472042429,
+      "mean_time": 0.004716012308833888,
+      "mean_precisions": 0.98682,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.011778872794457133,
+      "rps": 539.9520119354977,
+      "parallel": 100,
+      "p99_time": 0.01445776994507469,
+      "mean_time": 0.008476089945386048,
+      "mean_precisions": 0.99802,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.011778872794457133,
+      "rps": 539.9520119354977,
+      "parallel": 100,
+      "p99_time": 0.01445776994507469,
+      "mean_time": 0.008476089945386048,
+      "mean_precisions": 0.99802,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.011778872794457133,
+      "rps": 539.9520119354977,
+      "parallel": 100,
+      "p99_time": 0.01445776994507469,
+      "mean_time": 0.008476089945386048,
+      "mean_precisions": 0.99802,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.014911603594373449,
+      "rps": 536.9745087917017,
+      "parallel": 100,
+      "p99_time": 0.017981212167360355,
+      "mean_time": 0.01063057246094686,
+      "mean_precisions": 0.99946,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.014911603594373449,
+      "rps": 536.9745087917017,
+      "parallel": 100,
+      "p99_time": 0.017981212167360355,
+      "mean_time": 0.01063057246094686,
+      "mean_precisions": 0.99946,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.014911603594373449,
+      "rps": 536.9745087917017,
+      "parallel": 100,
+      "p99_time": 0.017981212167360355,
+      "mean_time": 0.01063057246094686,
+      "mean_precisions": 0.99946,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.017447412704495947,
+      "rps": 528.6446316204457,
+      "parallel": 100,
+      "p99_time": 0.02081038639582404,
+      "mean_time": 0.012437708100579039,
+      "mean_precisions": 0.99954,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.017447412704495947,
+      "rps": 528.6446316204457,
+      "parallel": 100,
+      "p99_time": 0.02081038639582404,
+      "mean_time": 0.012437708100579039,
+      "mean_precisions": 0.99954,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.017447412704495947,
+      "rps": 528.6446316204457,
+      "parallel": 100,
+      "p99_time": 0.02081038639582404,
+      "mean_time": 0.012437708100579039,
+      "mean_precisions": 0.99954,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.0066076070950657605,
+      "rps": 563.9897167767655,
+      "parallel": 100,
+      "p99_time": 0.007764235100330556,
+      "mean_time": 0.0051896126334395375,
+      "mean_precisions": 0.9947400000000002,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.0066076070950657605,
+      "rps": 563.9897167767655,
+      "parallel": 100,
+      "p99_time": 0.007764235100330556,
+      "mean_time": 0.0051896126334395375,
+      "mean_precisions": 0.9947400000000002,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.0066076070950657605,
+      "rps": 563.9897167767655,
+      "parallel": 100,
+      "p99_time": 0.007764235100330556,
+      "mean_time": 0.0051896126334395375,
+      "mean_precisions": 0.9947400000000002,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.010231518798900652,
+      "rps": 562.9233715998417,
+      "parallel": 100,
+      "p99_time": 0.012265314124015278,
+      "mean_time": 0.007368387605987664,
+      "mean_precisions": 0.9984799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.010231518798900652,
+      "rps": 562.9233715998417,
+      "parallel": 100,
+      "p99_time": 0.012265314124015278,
+      "mean_time": 0.007368387605987664,
+      "mean_precisions": 0.9984799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.010231518798900652,
+      "rps": 562.9233715998417,
+      "parallel": 100,
+      "p99_time": 0.012265314124015278,
+      "mean_time": 0.007368387605987664,
+      "mean_precisions": 0.9984799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.008073188345588279,
+      "rps": 554.8835512534347,
+      "parallel": 100,
+      "p99_time": 0.009470708495573493,
+      "mean_time": 0.005991704370925436,
+      "mean_precisions": 0.9944799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.008073188345588279,
+      "rps": 554.8835512534347,
+      "parallel": 100,
+      "p99_time": 0.009470708495573493,
+      "mean_time": 0.005991704370925436,
+      "mean_precisions": 0.9944799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.008073188345588279,
+      "rps": 554.8835512534347,
+      "parallel": 100,
+      "p99_time": 0.009470708495573493,
+      "mean_time": 0.005991704370925436,
+      "mean_precisions": 0.9944799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.0070442834483401395,
+      "rps": 540.7309555268249,
+      "parallel": 100,
+      "p99_time": 0.008293348159495518,
+      "mean_time": 0.0054371604643500175,
+      "mean_precisions": 0.9954800000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.0070442834483401395,
+      "rps": 540.7309555268249,
+      "parallel": 100,
+      "p99_time": 0.008293348159495518,
+      "mean_time": 0.0054371604643500175,
+      "mean_precisions": 0.9954800000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.0070442834483401395,
+      "rps": 540.7309555268249,
+      "parallel": 100,
+      "p99_time": 0.008293348159495518,
+      "mean_time": 0.0054371604643500175,
+      "mean_precisions": 0.9954800000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.008144459502000245,
+      "rps": 551.2486490641678,
+      "parallel": 100,
+      "p99_time": 0.009424240361258862,
+      "mean_time": 0.005987013777853281,
+      "mean_precisions": 0.99564,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.008144459502000245,
+      "rps": 551.2486490641678,
+      "parallel": 100,
+      "p99_time": 0.009424240361258862,
+      "mean_time": 0.005987013777853281,
+      "mean_precisions": 0.99564,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.008144459502000245,
+      "rps": 551.2486490641678,
+      "parallel": 100,
+      "p99_time": 0.009424240361258862,
+      "mean_time": 0.005987013777853281,
+      "mean_precisions": 0.99564,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.005953553349900176,
+      "rps": 549.2652933127039,
+      "parallel": 100,
+      "p99_time": 0.006903256674049772,
+      "mean_time": 0.004716149889600638,
+      "mean_precisions": 0.9890200000000001,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.005953553349900176,
+      "rps": 549.2652933127039,
+      "parallel": 100,
+      "p99_time": 0.006903256674049772,
+      "mean_time": 0.004716149889600638,
+      "mean_precisions": 0.9890200000000001,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.005953553349900176,
+      "rps": 549.2652933127039,
+      "parallel": 100,
+      "p99_time": 0.006903256674049772,
+      "mean_time": 0.004716149889600638,
+      "mean_precisions": 0.9890200000000001,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.007016728949020034,
+      "rps": 555.712236397498,
+      "parallel": 100,
+      "p99_time": 0.008232899556605848,
+      "mean_time": 0.005324518392402388,
+      "mean_precisions": 0.9928600000000001,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.007016728949020034,
+      "rps": 555.712236397498,
+      "parallel": 100,
+      "p99_time": 0.008232899556605848,
+      "mean_time": 0.005324518392402388,
+      "mean_precisions": 0.9928600000000001,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.007016728949020034,
+      "rps": 555.712236397498,
+      "parallel": 100,
+      "p99_time": 0.008232899556605848,
+      "mean_time": 0.005324518392402388,
+      "mean_precisions": 0.9928600000000001,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.01122256640192063,
+      "rps": 548.5365318284629,
+      "parallel": 100,
+      "p99_time": 0.012778474041188021,
+      "mean_time": 0.008138247779916856,
+      "mean_precisions": 0.9991400000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.01122256640192063,
+      "rps": 548.5365318284629,
+      "parallel": 100,
+      "p99_time": 0.012778474041188021,
+      "mean_time": 0.008138247779916856,
+      "mean_precisions": 0.9991400000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-512",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.01122256640192063,
+      "rps": 548.5365318284629,
+      "parallel": 100,
+      "p99_time": 0.012778474041188021,
+      "mean_time": 0.008138247779916856,
+      "mean_precisions": 0.9991400000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-512",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 512,
+          "M": 64
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.006452111846010669,
+      "rps": 557.5451058300898,
+      "parallel": 100,
+      "p99_time": 0.007888728381512925,
+      "mean_time": 0.00510598338500713,
+      "mean_precisions": 0.9947599999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.006452111846010669,
+      "rps": 557.5451058300898,
+      "parallel": 100,
+      "p99_time": 0.007888728381512925,
+      "mean_time": 0.00510598338500713,
+      "mean_precisions": 0.9947599999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "3",
+      "p95_time": 0.006452111846010669,
+      "rps": 557.5451058300898,
+      "parallel": 100,
+      "p99_time": 0.007888728381512925,
+      "mean_time": 0.00510598338500713,
+      "mean_precisions": 0.9947599999999999,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 128
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.013327025944818162,
+      "rps": 538.1420853645491,
+      "parallel": 100,
+      "p99_time": 0.015607058989262443,
+      "mean_time": 0.009558487550794963,
+      "mean_precisions": 0.9991400000000001,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.013327025944818162,
+      "rps": 538.1420853645491,
+      "parallel": 100,
+      "p99_time": 0.015607058989262443,
+      "mean_time": 0.009558487550794963,
+      "mean_precisions": 0.9991400000000001,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.013327025944818162,
+      "rps": 538.1420853645491,
+      "parallel": 100,
+      "p99_time": 0.015607058989262443,
+      "mean_time": 0.009558487550794963,
+      "mean_precisions": 0.9991400000000001,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.014881282201895375,
+      "rps": 557.2915782043814,
+      "parallel": 100,
+      "p99_time": 0.017706857071243594,
+      "mean_time": 0.010645589755191759,
+      "mean_precisions": 0.9992400000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.014881282201895375,
+      "rps": 557.2915782043814,
+      "parallel": 100,
+      "p99_time": 0.017706857071243594,
+      "mean_time": 0.010645589755191759,
+      "mean_precisions": 0.9992400000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-64-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.014881282201895375,
+      "rps": 557.2915782043814,
+      "parallel": 100,
+      "p99_time": 0.017706857071243594,
+      "mean_time": 0.010645589755191759,
+      "mean_precisions": 0.9992400000000001,
+      "engine_params": {
+        "experiment": "milvus-m-64-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 64
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.009926406251906883,
+      "rps": 551.041400159807,
+      "parallel": 100,
+      "p99_time": 0.011828511717030785,
+      "mean_time": 0.007162480255207629,
+      "mean_precisions": 0.9973799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.009926406251906883,
+      "rps": 551.041400159807,
+      "parallel": 100,
+      "p99_time": 0.011828511717030785,
+      "mean_time": 0.007162480255207629,
+      "mean_precisions": 0.9973799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-16-ef-128",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "5",
+      "p95_time": 0.009926406251906883,
+      "rps": 551.041400159807,
+      "parallel": 100,
+      "p99_time": 0.011828511717030785,
+      "mean_time": 0.007162480255207629,
+      "mean_precisions": 0.9973799999999999,
+      "engine_params": {
+        "experiment": "milvus-m-16-ef-128",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 128,
+          "M": 16
+        },
+        "ef": 512
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.00914295834954828,
+      "rps": 552.6527046701069,
+      "parallel": 100,
+      "p99_time": 0.010703430856228808,
+      "mean_time": 0.006652603235843707,
+      "mean_precisions": 0.99792,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.00914295834954828,
+      "rps": 552.6527046701069,
+      "parallel": 100,
+      "p99_time": 0.010703430856228808,
+      "mean_time": 0.006652603235843707,
+      "mean_precisions": 0.99792,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 256
+      }
+    },
+    {
+      "engine_name": "milvus",
+      "setup_name": "milvus-m-32-ef-256",
+      "dataset_name": "dbpedia-openai-100K-1536-angular",
+      "search_idx": "4",
+      "p95_time": 0.00914295834954828,
+      "rps": 552.6527046701069,
+      "parallel": 100,
+      "p99_time": 0.010703430856228808,
+      "mean_time": 0.006652603235843707,
+      "mean_precisions": 0.99792,
+      "engine_params": {
+        "experiment": "milvus-m-32-ef-256",
+        "parallel": 16,
+        "index_params": {
+          "efConstruction": 256,
+          "M": 32
+        },
+        "ef": 256
+      }
+    }
+  ]
