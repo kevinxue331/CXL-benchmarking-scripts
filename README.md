@@ -14,6 +14,8 @@ Run using the https://github.com/qdrant/vector-db-benchmark benchmarks. Change d
 ## Docker execution
 ```
 1. Go into VectorDbBenchmark
-2. Docker compose up the correct image from /engines/server/set first set docker slices in .yaml file and then use systemctl to set memory and cpu constraints
-3. Utilize benchmarks from https://github.com/qdrant/vector-db-benchmark.git ex. "sudo python3 -m run --engines <engine name> --datasets glove-100<or other>"
+2. Docker compose up the correct image from /engines/server/set first set docker slices in .yaml file using (cgroup-parent: ex.slice)
+4. then use systemctl to set memory and cpu constraints for slice ex. 
+$ systemctl set-property dbtesting.slice AllowedMemoryNodes=2
+3. Utilize benchmarks from https://github.com/qdrant/vector-db-benchmark.git ex. "sudo python3 -m run --engines <engine name> --datasets <dataset>"
 ```
