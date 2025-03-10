@@ -1,0 +1,914 @@
+[
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-32-ef-256",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "7",
+    "p95_time": 1.6732876559990473,
+    "rps": 65.38808168755197,
+    "parallel": 100,
+    "p99_time": 1.70125199304759,
+    "mean_time": 1.4429826758179443,
+    "mean_precisions": 0.99634,
+    "engine_params": {
+      "experiment": "qdrant-m-32-ef-256",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 32,
+        "ef_construct": 256
+      },
+      "hnsw_ef": 512
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "5",
+    "p95_time": 1.0617222248984035,
+    "rps": 109.17915965375121,
+    "parallel": 100,
+    "p99_time": 1.070211687959345,
+    "mean_time": 0.8719705539620045,
+    "mean_precisions": 0.92677,
+    "engine_params": {
+      "experiment": "qdrant-mmap-m-16-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 128
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "5",
+    "p95_time": 1.0617222248984035,
+    "rps": 109.17915965375121,
+    "parallel": 100,
+    "p99_time": 1.070211687959345,
+    "mean_time": 0.8719705539620045,
+    "mean_precisions": 0.92677,
+    "engine_params": {
+      "experiment": "qdrant-m-16-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 128
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-64-ef-512",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "6",
+    "p95_time": 1.4312854310021064,
+    "rps": 77.60363388768994,
+    "parallel": 100,
+    "p99_time": 1.4593718722700941,
+    "mean_time": 1.2155932580319642,
+    "mean_precisions": 0.99597,
+    "engine_params": {
+      "experiment": "qdrant-m-64-ef-512",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 64,
+        "ef_construct": 512
+      },
+      "hnsw_ef": 256
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-64-ef-512",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "7",
+    "p95_time": 2.144004246350596,
+    "rps": 51.81172202744885,
+    "parallel": 100,
+    "p99_time": 2.177591217219087,
+    "mean_time": 1.8257677898930598,
+    "mean_precisions": 0.99882,
+    "engine_params": {
+      "experiment": "qdrant-m-64-ef-512",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 64,
+        "ef_construct": 512
+      },
+      "hnsw_ef": 512
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-32-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "6",
+    "p95_time": 1.1142303376480414,
+    "rps": 97.13632696566951,
+    "parallel": 100,
+    "p99_time": 1.1312450128512865,
+    "mean_time": 0.9707787753669654,
+    "mean_precisions": 0.9820800000000001,
+    "engine_params": {
+      "experiment": "qdrant-m-32-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 32,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 256
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-32-ef-256",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "6",
+    "p95_time": 1.0355186385995694,
+    "rps": 106.50236355622464,
+    "parallel": 100,
+    "p99_time": 1.0533752579578504,
+    "mean_time": 0.885290755529033,
+    "mean_precisions": 0.99016,
+    "engine_params": {
+      "experiment": "qdrant-m-32-ef-256",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 32,
+        "ef_construct": 256
+      },
+      "hnsw_ef": 256
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "6",
+    "p95_time": 0.7114311131488648,
+    "rps": 150.36379045531902,
+    "parallel": 100,
+    "p99_time": 0.7211414730597244,
+    "mean_time": 0.6196339165990102,
+    "mean_precisions": 0.9669500000000001,
+    "engine_params": {
+      "experiment": "qdrant-mmap-m-16-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 256
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "6",
+    "p95_time": 0.7114311131488648,
+    "rps": 150.36379045531902,
+    "parallel": 100,
+    "p99_time": 0.7211414730597244,
+    "mean_time": 0.6196339165990102,
+    "mean_precisions": 0.9669500000000001,
+    "engine_params": {
+      "experiment": "qdrant-m-16-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 256
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-32-ef-256",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "5",
+    "p95_time": 0.6065802605997306,
+    "rps": 176.6907676625163,
+    "parallel": 100,
+    "p99_time": 0.6125805669919646,
+    "mean_time": 0.5218807175760521,
+    "mean_precisions": 0.9715900000000002,
+    "engine_params": {
+      "experiment": "qdrant-m-32-ef-256",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 32,
+        "ef_construct": 256
+      },
+      "hnsw_ef": 128
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-mmap-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "4",
+    "p95_time": 0.24666379214850168,
+    "rps": 415.70317133367723,
+    "parallel": 100,
+    "p99_time": 0.25016211730940996,
+    "mean_time": 0.21216750124804093,
+    "mean_precisions": 0.8536800000000001,
+    "engine_params": {
+      "experiment": "qdrant-mmap-m-16-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 64
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-mmap-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "4",
+    "p95_time": 0.24666379214850168,
+    "rps": 415.70317133367723,
+    "parallel": 100,
+    "p99_time": 0.25016211730940996,
+    "mean_time": 0.21216750124804093,
+    "mean_precisions": 0.8536800000000001,
+    "engine_params": {
+      "experiment": "qdrant-m-16-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 64
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "7",
+    "p95_time": 1.1500433196031736,
+    "rps": 92.67962997249913,
+    "parallel": 100,
+    "p99_time": 1.1623861689817931,
+    "mean_time": 1.0150021499130308,
+    "mean_precisions": 0.98497,
+    "engine_params": {
+      "experiment": "qdrant-mmap-m-16-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 512
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "7",
+    "p95_time": 1.1500433196031736,
+    "rps": 92.67962997249913,
+    "parallel": 100,
+    "p99_time": 1.1623861689817931,
+    "mean_time": 1.0150021499130308,
+    "mean_precisions": 0.98497,
+    "engine_params": {
+      "experiment": "qdrant-m-16-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 512
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "4",
+    "p95_time": 0.2365588563001438,
+    "rps": 445.57915433829714,
+    "parallel": 100,
+    "p99_time": 0.29411196718945576,
+    "mean_time": 0.20403035143091255,
+    "mean_precisions": 0.85273,
+    "engine_params": {
+      "experiment": "qdrant-mmap-m-16-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 64
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "4",
+    "p95_time": 0.2365588563001438,
+    "rps": 445.57915433829714,
+    "parallel": 100,
+    "p99_time": 0.29411196718945576,
+    "mean_time": 0.20403035143091255,
+    "mean_precisions": 0.85273,
+    "engine_params": {
+      "experiment": "qdrant-m-16-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 64
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-32-ef-512",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "4",
+    "p95_time": 0.437036129199987,
+    "rps": 245.5630008409275,
+    "parallel": 100,
+    "p99_time": 0.4408510629868397,
+    "mean_time": 0.3695168425379525,
+    "mean_precisions": 0.9408,
+    "engine_params": {
+      "experiment": "qdrant-m-32-ef-512",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 32,
+        "ef_construct": 512
+      },
+      "hnsw_ef": 64
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-64-ef-256",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "4",
+    "p95_time": 0.45220366354787983,
+    "rps": 241.15368695535352,
+    "parallel": 100,
+    "p99_time": 0.4627427654794519,
+    "mean_time": 0.38385511546806084,
+    "mean_precisions": 0.9368300000000002,
+    "engine_params": {
+      "experiment": "qdrant-m-64-ef-256",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 64,
+        "ef_construct": 256
+      },
+      "hnsw_ef": 64
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-32-ef-512",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "7",
+    "p95_time": 1.8619446882517876,
+    "rps": 58.72047962276291,
+    "parallel": 100,
+    "p99_time": 1.8862141967399293,
+    "mean_time": 1.6081737098900122,
+    "mean_precisions": 0.99812,
+    "engine_params": {
+      "experiment": "qdrant-m-32-ef-512",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 32,
+        "ef_construct": 512
+      },
+      "hnsw_ef": 512
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-mmap-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "5",
+    "p95_time": 0.4220236280516474,
+    "rps": 248.15156447021556,
+    "parallel": 100,
+    "p99_time": 0.42668591873905826,
+    "mean_time": 0.36398890301510983,
+    "mean_precisions": 0.9273199999999999,
+    "engine_params": {
+      "experiment": "qdrant-mmap-m-16-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 128
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-mmap-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "5",
+    "p95_time": 0.4220236280516474,
+    "rps": 248.15156447021556,
+    "parallel": 100,
+    "p99_time": 0.42668591873905826,
+    "mean_time": 0.36398890301510983,
+    "mean_precisions": 0.9273199999999999,
+    "engine_params": {
+      "experiment": "qdrant-m-16-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 128
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-32-ef-256",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "4",
+    "p95_time": 0.36378046455047297,
+    "rps": 290.07492234949495,
+    "parallel": 100,
+    "p99_time": 0.36742601979818573,
+    "mean_time": 0.3177983196960122,
+    "mean_precisions": 0.92448,
+    "engine_params": {
+      "experiment": "qdrant-m-32-ef-256",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 32,
+        "ef_construct": 256
+      },
+      "hnsw_ef": 64
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-mmap-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "6",
+    "p95_time": 1.671121278449209,
+    "rps": 81.99467846222485,
+    "parallel": 100,
+    "p99_time": 1.6987595313993369,
+    "mean_time": 1.1619278606209846,
+    "mean_precisions": 0.9661700000000001,
+    "engine_params": {
+      "experiment": "qdrant-mmap-m-16-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 256
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-mmap-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "6",
+    "p95_time": 1.671121278449209,
+    "rps": 81.99467846222485,
+    "parallel": 100,
+    "p99_time": 1.6987595313993369,
+    "mean_time": 1.1619278606209846,
+    "mean_precisions": 0.9661700000000001,
+    "engine_params": {
+      "experiment": "qdrant-m-16-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 256
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-64-ef-256",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "7",
+    "p95_time": 3.006443233299251,
+    "rps": 45.525269890451106,
+    "parallel": 100,
+    "p99_time": 3.343397304549144,
+    "mean_time": 2.1007155331109897,
+    "mean_precisions": 0.99781,
+    "engine_params": {
+      "experiment": "qdrant-m-64-ef-256",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 64,
+        "ef_construct": 256
+      },
+      "hnsw_ef": 512
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-64-ef-256",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "5",
+    "p95_time": 0.7117598149492551,
+    "rps": 153.72562370998185,
+    "parallel": 100,
+    "p99_time": 0.723226083091904,
+    "mean_time": 0.6021424663629259,
+    "mean_precisions": 0.9769000000000001,
+    "engine_params": {
+      "experiment": "qdrant-m-64-ef-256",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 64,
+        "ef_construct": 256
+      },
+      "hnsw_ef": 128
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-32-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "4",
+    "p95_time": 0.31254062004773003,
+    "rps": 338.3139750973163,
+    "parallel": 100,
+    "p99_time": 0.3181142788299621,
+    "mean_time": 0.2641298811360175,
+    "mean_precisions": 0.8952899999999999,
+    "engine_params": {
+      "experiment": "qdrant-m-32-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 32,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 64
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-32-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "5",
+    "p95_time": 1.4211333932013075,
+    "rps": 94.47810369918255,
+    "parallel": 100,
+    "p99_time": 1.4443390153888687,
+    "mean_time": 1.0069557773890592,
+    "mean_precisions": 0.9544400000000001,
+    "engine_params": {
+      "experiment": "qdrant-m-32-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 32,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 128
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-32-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "7",
+    "p95_time": 1.462331980001545,
+    "rps": 74.87284502149612,
+    "parallel": 100,
+    "p99_time": 1.4834265423699982,
+    "mean_time": 1.2585451712600189,
+    "mean_precisions": 0.9928800000000001,
+    "engine_params": {
+      "experiment": "qdrant-m-32-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 32,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 512
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-mmap-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "7",
+    "p95_time": 1.3382843937995859,
+    "rps": 84.50943198506222,
+    "parallel": 100,
+    "p99_time": 1.3537453540674322,
+    "mean_time": 1.1134332174419905,
+    "mean_precisions": 0.9845499999999999,
+    "engine_params": {
+      "experiment": "qdrant-mmap-m-16-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 512
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-mmap-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "7",
+    "p95_time": 1.3382843937995859,
+    "rps": 84.50943198506222,
+    "parallel": 100,
+    "p99_time": 1.3537453540674322,
+    "mean_time": 1.1134332174419905,
+    "mean_precisions": 0.9845499999999999,
+    "engine_params": {
+      "experiment": "qdrant-m-16-ef-128",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 16,
+        "ef_construct": 128
+      },
+      "hnsw_ef": 512
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-64-ef-256",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "6",
+    "p95_time": 1.151953637400038,
+    "rps": 95.68220708185225,
+    "parallel": 100,
+    "p99_time": 1.1740478430812435,
+    "mean_time": 0.9810339351379916,
+    "mean_precisions": 0.9926800000000001,
+    "engine_params": {
+      "experiment": "qdrant-m-64-ef-256",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 64,
+        "ef_construct": 256
+      },
+      "hnsw_ef": 256
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-32-ef-512",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "6",
+    "p95_time": 1.8314016847993115,
+    "rps": 59.233046254689675,
+    "parallel": 100,
+    "p99_time": 1.8631942947000426,
+    "mean_time": 1.5972953011160462,
+    "mean_precisions": 0.9941300000000001,
+    "engine_params": {
+      "experiment": "qdrant-m-32-ef-512",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 32,
+        "ef_construct": 512
+      },
+      "hnsw_ef": 256
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-32-ef-256",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "5",
+    "p95_time": 0.2118741999995109,
+    "rps": 498.4504416902018,
+    "parallel": 100,
+    "p99_time": 0.21562465223727487,
+    "mean_time": 0.1780122232189751,
+    "mean_precisions": 0.9711700000000001,
+    "engine_params": {
+      "experiment": "qdrant-m-32-ef-256",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 32,
+        "ef_construct": 256
+      },
+      "hnsw_ef": 128
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-64-ef-512",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "5",
+    "p95_time": 0.8067319899977519,
+    "rps": 135.92619973647192,
+    "parallel": 100,
+    "p99_time": 0.823964344227279,
+    "mean_time": 0.686604752807958,
+    "mean_precisions": 0.9859300000000001,
+    "engine_params": {
+      "experiment": "qdrant-m-64-ef-512",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 64,
+        "ef_construct": 512
+      },
+      "hnsw_ef": 128
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-32-ef-512",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "5",
+    "p95_time": 1.781645594348629,
+    "rps": 61.55815453759905,
+    "parallel": 100,
+    "p99_time": 1.8127388296599383,
+    "mean_time": 1.5380210289208953,
+    "mean_precisions": 0.9808900000000002,
+    "engine_params": {
+      "experiment": "qdrant-m-32-ef-512",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 32,
+        "ef_construct": 512
+      },
+      "hnsw_ef": 128
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-64-ef-512",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "4",
+    "p95_time": 0.5073022514483455,
+    "rps": 214.7714594747106,
+    "parallel": 100,
+    "p99_time": 0.516323180019208,
+    "mean_time": 0.4250351773460061,
+    "mean_precisions": 0.95533,
+    "engine_params": {
+      "experiment": "qdrant-m-64-ef-512",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 64,
+        "ef_construct": 512
+      },
+      "hnsw_ef": 64
+    }
+  },
+  {
+    "engine_name": "qdrant",
+    "setup_name": "qdrant-m-32-ef-256",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "4",
+    "p95_time": 0.12619987849957395,
+    "rps": 787.695589313974,
+    "parallel": 100,
+    "p99_time": 0.12905848009682813,
+    "mean_time": 0.10181344913996873,
+    "mean_precisions": 0.92479,
+    "engine_params": {
+      "experiment": "qdrant-m-32-ef-256",
+      "parallel": 16,
+      "optimizers_config": {
+        "memmap_threshold": 10000000
+      },
+      "hnsw_config": {
+        "m": 32,
+        "ef_construct": 256
+      },
+      "hnsw_ef": 64
+    }
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-32-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "4",
+    "p95_time": 0.5756164432445074,
+    "rps": 225.2260006360459,
+    "parallel": 100,
+    "p99_time": 0.6604674239456654,
+    "mean_time": 0.404332280935836,
+    "mean_precisions": 0.97046,
+    "engine_params": {
+      "experiment": "milvus-m-32-ef-128",
+      "parallel": 16,
+      "index_params": {
+        "efConstruction": 128,
+        "M": 32
+      },
+      "ef": 256
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-32-ef-256",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "4",
+    "p95_time": 0.6519695018476339,
+    "rps": 200.35563228989952,
+    "parallel": 100,
+    "p99_time": 0.7309565807052422,
+    "mean_time": 0.4581305240020156,
+    "mean_precisions": 0.9826,
+    "engine_params": {
+      "experiment": "milvus-m-32-ef-256",
+      "parallel": 16,
+      "index_params": {
+        "efConstruction": 256,
+        "M": 32
+      },
+      "ef": 256
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-64-ef-256",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "5",
+    "p95_time": 1.213273119018413,
+    "rps": 105.57976183726855,
+    "parallel": 100,
+    "p99_time": 1.4091667152440641,
+    "mean_time": 0.8963650235993554,
+    "mean_precisions": 0.99601,
+    "engine_params": {
+      "experiment": "milvus-m-64-ef-256",
+      "parallel": 16,
+      "index_params": {
+        "efConstruction": 256,
+        "M": 64
+      },
+      "ef": 512
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-64-ef-256",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "3",
+    "p95_time": 0.46035820950055495,
+    "rps": 287.651853451256,
+    "parallel": 100,
+    "p99_time": 0.5669700759532861,
+    "mean_time": 0.3115270501713967,
+    "mean_precisions": 0.9630000000000001,
+    "engine_params": {
+      "experiment": "milvus-m-64-ef-256",
+      "parallel": 16,
+      "index_params": {
+        "efConstruction": 256,
+        "M": 64
+      },
+      "ef": 128
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "5",
+    "p95_time": 0.7833496635779738,
+    "rps": 164.98895064790406,
+    "parallel": 100,
+    "p99_time": 0.835023828750709,
+    "mean_time": 0.5634737489853288,
+    "mean_precisions": 0.97653,
+    "engine_params": {
+      "experiment": "milvus-m-16-ef-128",
+      "parallel": 16,
+      "index_params": {
+        "efConstruction": 128,
+        "M": 16
+      },
+      "ef": 512
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "3",
+    "p95_time": 0.23245473423157811,
+    "rps": 466.07388185239967,
+    "parallel": 100,
+    "p99_time": 0.26725336904288266,
+    "mean_time": 0.12490944066597148,
+    "mean_precisions": 0.89145,
+    "engine_params": {
+      "experiment": "milvus-m-16-ef-128",
+      "parallel": 16,
+      "index_params": {
+        "efConstruction": 128,
+        "M": 16
+      },
+      "ef": 128
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-32-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "5",
+    "p95_time": 0.9512138093938118,
+    "rps": 135.08067535176454,
+    "parallel": 100,
+    "p99_time": 1.0548005830287002,
+    "mean_time": 0.6943990976520581,
+    "mean_precisions": 0.98875,
+    "engine_params": {
+      "experiment": "milvus-m-32-ef-128",
+      "parallel": 16,
+      "index_params": {
+        "efConstruction": 128,
+        "M": 32
+      },
+      "ef": 512
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-32-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "3",
+    "p95_time": 0.333210650307592,
+    "rps": 377.4996915472238,
+    "parallel": 100,
+    "p99_time": 0.40042770562926294,
+    "mean_time": 0.22594698602950666,
+    "mean_precisions": 0.9280799999999999,
+    "engine_params": {
+      "experiment": "milvus-m-32-ef-128",
+      "parallel": 16,
+      "index_params": {
+        "efConstruction": 128,
+        "M": 32
+      },
+      "ef": 128
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-32-ef-512",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "3",
+    "p95_time": 0.4384980338683817,
+    "rps": 303.9138864214008,
+    "parallel": 100,
+    "p99_time": 0.48843065739725716,
+    "mean_time": 0.28961679902358445,
+    "mean_precisions": 0.9644100000000001,
+    "engine_params": {
+      "experiment": "milvus-m-32-ef-512",
+      "parallel": 16,
+      "index_params": {
+        "efConstruction": 512,
+        "M": 32
+      },
+      "ef": 128
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-32-ef-512",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "5",
+    "p95_time": 1.1810503863671329,
+    "rps": 108.5181352593044,
+    "parallel": 100,
+    "p99_time": 1.3746516086685006,
+    "mean_time": 0.8747265792759136,
+    "mean_precisions": 0.9971,
+    "engine_params": {
+      "experiment": "milvus-m-32-ef-512",
+      "parallel": 16,
+      "index_params": {
+        "efConstruction": 512,
+        "M": 32
+      },
+      "ef": 512
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-16-ef-128",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "4",
+    "p95_time": 0.4446126113471109,
+    "rps": 280.51893438542106,
+    "parallel": 100,
+    "p99_time": 0.504371937753167,
+    "mean_time": 0.31832824310299473,
+    "mean_precisions": 0.94707,
+    "engine_params": {
+      "experiment": "milvus-m-16-ef-128",
+      "parallel": 16,
+      "index_params": {
+        "efConstruction": 128,
+        "M": 16
+      },
+      "ef": 256
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-32-ef-256",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "3",
+    "p95_time": 0.37316301757819015,
+    "rps": 336.5763825288265,
+    "parallel": 100,
+    "p99_time": 0.44392052275477906,
+    "mean_time": 0.2579429644283373,
+    "mean_precisions": 0.9521600000000001,
+    "engine_params": {
+      "experiment": "milvus-m-32-ef-256",
+      "parallel": 16,
+      "index_params": {
+        "efConstruction": 256,
+        "M": 32
+      },
+      "ef": 128
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-32-ef-512",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "4",
+    "p95_time": 0.7080556168511974,
+    "rps": 180.69923880850533,
+    "parallel": 100,
+    "p99_time": 0.7995343427464828,
+    "mean_time": 0.5134873062559636,
+    "mean_precisions": 0.9893,
+    "engine_params": {
+      "experiment": "milvus-m-32-ef-512",
+      "parallel": 16,
+      "index_params": {
+        "efConstruction": 512,
+        "M": 32
+      },
+      "ef": 256
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-64-ef-256",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "4",
+    "p95_time": 0.741194174432894,
+    "rps": 173.8512337401673,
+    "parallel": 100,
+    "p99_time": 0.8297943164687603,
+    "mean_time": 0.5354442004421726,
+    "mean_precisions": 0.98788,
+    "engine_params": {
+      "experiment": "milvus-m-64-ef-256",
+      "parallel": 16,
+      "index_params": {
+        "efConstruction": 256,
+        "M": 64
+      },
+      "ef": 256
+    }
+  },
+  {
+    "engine_name": "milvus",
+    "setup_name": "milvus-m-32-ef-256",
+    "dataset_name": "gist-960-euclidean",
+    "search_idx": "5",
+    "p95_time": 1.0674636371666566,
+    "rps": 120.15254834704047,
+    "parallel": 100,
+    "p99_time": 1.2258890638430602,
+    "mean_time": 0.78566858516098,
+    "mean_precisions": 0.9940599999999999,
+    "engine_params": {
+      "experiment": "milvus-m-32-ef-256",
+      "parallel": 16,
+      "index_params": {
+        "efConstruction": 256,
+        "M": 32
+      },
+      "ef": 512
+    }
+  }
+]
